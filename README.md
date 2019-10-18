@@ -1,13 +1,10 @@
 # React-UIKit-MultiSelect
 
 A MultiSelect component built for React with [UIKit3](https://https://getuikit.com/)
-[Check out the Demo](https://https://getuikit.com/)
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Installing
+<p align="center">
+  <img width="600" height="400" src="multiselect.gif">
+</p>
+## Installing
 
 Install the package with npm or Yarn
 

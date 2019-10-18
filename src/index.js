@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import * as UIKit from 'uikit'
+import React from 'react';
+import * as UIKit from 'uikit';
 import 'uikit/dist/css/uikit.min.css';
-import './index.css'
+import './module.css';
 
-class MultiSelect extends Component {
+class MultiSelect extends React.Component {
 
     constructor(props) {
         super(props)
@@ -13,8 +13,8 @@ class MultiSelect extends Component {
 
     OptionItem({ opt }) {
         return (
-            <li className="option-item uk-margin-small">
-                <div className="uk-margin-small" onClick={() => {
+            <li className="option-item">
+                <div className="uk-align-left" onClick={() => {
                     opt.checked = opt.checked ? false : true;
                     this.handleItemClick(opt);
                 }}>
@@ -61,7 +61,7 @@ class MultiSelect extends Component {
                 <div className="uk-inline uk-width-1-1">
                     <button className="uk-button uk-button-default uk-select uk-background-muted" type="button" />
                     <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true;" className="uk-background-muted">
-                        <ul className="uk-nav uk-dropdown-nav" style={{ maxHeight: "500px", overflowX: "hidden", overflowY: "auto", maxWidth: "350px" }}>
+                        <ul className="uk-nav uk-dropdown-nav uk-list" style={{ maxHeight: "500px", overflowX: "hidden", overflowY: "auto", maxWidth: "350px" }}>
 
                             {
                                 this.state.optionsList.map((opt, i) => {
