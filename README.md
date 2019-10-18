@@ -2,7 +2,7 @@
 
 A MultiSelect component built for React with [UIKit3](https://https://getuikit.com/)
 <p align="center">
-  <img width="600" height="400" src="multiselect.gif">
+  <img width="600" height="500" src="multiselect.gif">
 </p>
 ## Installing
 
