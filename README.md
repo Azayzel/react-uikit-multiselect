@@ -1,6 +1,8 @@
 # React-UIKit-MultiSelect
 
 A MultiSelect component built for React with [UIKit3](https://https://getuikit.com/)
+* [DEMO App](http://azayzel.github.io/react-uikit-multiselect/)
+
 <p align="center">
   <img width="600" height="500" src="multiselect.gif">
 </p>

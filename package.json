@@ -3,6 +3,7 @@
     "version": "1.0.12",
     "description": "A React Multiselect Component built with UIKit 3",
     "main": "build/index.js",
+    "homepage": "http://azayzel.github.io/react-uikit-multiselect/",
     "peerDependencies": {
         "react": "^16.10.2"
     },
